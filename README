@@ -3,27 +3,27 @@ libgnomecanvasmm26
 Official C++ bindings for libgnomecanvas-2.6.
 
 Runtime requirements:
-  cygwin-1.5.19-4
-  gtk2-x11-2.8.13-1
-  gtkmm24-2.8.5-1
+  cygwin-1.5.21-2
+  gtk2-x11-2.10.6-1
+  gtkmm24-2.10.3-1
   libart_lgpl2-2.3.17-1
   libgnomecanvas2-2.14.0-1
   libsigc++20-2.0.17-1
 
 Build requirements:
 (besides corresponding -devel packages)
-  cygwin-1.5.19-4
-  autoconf2.5-2.59-3
+  cygwin-1.5.21-2
+  autoconf2.5-2.60-1
   automake1.9-1.9.6-1
-  binutils-20050610-1
-  cygport-0.1.90-1
+  binutils-20060817-1
+  cygport-0.2.6-1
   gawk-3.1.5-2
   gcc-core-3.4.4-1
   gcc-g++-3.4.4-1
-  libtool1.5-1.5.20-2
-  make-3.80-1
-  pkg-config-0.20-1
-  sed-4.1.4-1
+  libtool1.5-1.5.23a-1
+  make-3.81-1
+  pkg-config-0.21-1
+  sed-4.1.5-1
 
 Canonical homepage:
   http://www.gtkmm.org/
@@ -34,30 +34,30 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack libgnomecanvasmm26-2.14.0-X-src.tar.bz2
+  unpack libgnomecanvasmm26-2.16.0-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./libgnomecanvasmm26-2.14.0-X.cygport all
+  cygport ./libgnomecanvasmm26-2.16.0-X.cygport all
 
 This will create:
-  /usr/src/libgnomecanvasmm26-2.14.0-X-src.tar.bz2
-  /usr/src/libgnomecanvasmm26-2.14.0-X.tar.bz2
-  /usr/src/libgnomecanvasmm26-devel-2.14.0-X.tar.bz2
+  /usr/src/libgnomecanvasmm26-2.16.0-X-src.tar.bz2
+  /usr/src/libgnomecanvasmm26-2.16.0-X.tar.bz2
+  /usr/src/libgnomecanvasmm26-devel-2.16.0-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the main package:
 
   /usr/bin/cyggnomecanvasmm-2.6-1.dll
-  /usr/share/doc/Cygwin/libgnomecanvasmm26-2.14.0.README
-  /usr/share/doc/libgnomecanvasmm26-2.14.0/AUTHORS
-  /usr/share/doc/libgnomecanvasmm26-2.14.0/ChangeLog
-  /usr/share/doc/libgnomecanvasmm26-2.14.0/COPYING
-  /usr/share/doc/libgnomecanvasmm26-2.14.0/INSTALL
-  /usr/share/doc/libgnomecanvasmm26-2.14.0/NEWS
-  /usr/share/doc/libgnomecanvasmm26-2.14.0/README
-  /usr/share/doc/libgnomecanvasmm26-2.14.0/TODO
+  /usr/share/doc/Cygwin/libgnomecanvasmm26-2.16.0.README
+  /usr/share/doc/libgnomecanvasmm26-2.16.0/AUTHORS
+  /usr/share/doc/libgnomecanvasmm26-2.16.0/ChangeLog
+  /usr/share/doc/libgnomecanvasmm26-2.16.0/COPYING
+  /usr/share/doc/libgnomecanvasmm26-2.16.0/INSTALL
+  /usr/share/doc/libgnomecanvasmm26-2.16.0/NEWS
+  /usr/share/doc/libgnomecanvasmm26-2.16.0/README
+  /usr/share/doc/libgnomecanvasmm26-2.16.0/TODO
 
 Files included in the devel package:
 
@@ -108,8 +108,11 @@ Files included in the devel package:
 
 Port Notes:
 
+----- version 2.16.0-1 -----
+Version bump for GNOME 2.16.
+
 ----- version 2.14.0-1 -----
-Version bump.
+Version bump for GNOME 2.14.
 
 ----- version 2.12.0-1 -----
 Version bump.
