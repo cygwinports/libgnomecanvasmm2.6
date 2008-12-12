@@ -1,4 +1,0 @@
-category: Gnome
-requires: cygwin glib2 glibmm24 gtk2-x11 gtkmm24 libart_lgpl2 libgnomecanvas2 libsigc++20
-sdesc: "C++ bindings for libgnomecanvas (2.6 branch, runtime)"
-ldesc: "Official C++ bindings for libgnomecanvas-2.6"
