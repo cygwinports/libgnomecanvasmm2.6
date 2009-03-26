@@ -1,5 +1,5 @@
 category: Gnome
-requires: cygwin libgnomecanvasmm2.6_1 libatk1.6-devel libgdk_pixbuf2.0-devel libglib2.0-devel libglibmm2.4-devel libgtkmm2.4-devel libart_lgpl_2-devel libgnomecanvas2-devel libpangomm1.4-devel libsigc2.0-devel
+requires: cygwin libgnomecanvasmm2.6_1 libatk1.6-devel libgdk_pixbuf2.0-devel libglib2.0-devel libglibmm2.4-devel libgtkmm2.4-devel libart_lgpl_2-devel libgnomecanvas2-devel libpangomm1.4-devel libsigc2.0-devel libstdc++6-devel
 external-source: libgnomecanvasmm2.6
 sdesc: "C++ bindings for libgnomecanvas-2 (development)"
 ldesc: "Official C++ bindings for libgnomecanvas-2.6"
