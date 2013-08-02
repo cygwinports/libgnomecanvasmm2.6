@@ -1,0 +1,12 @@
+inherit gtkmm
+
+NAME="libgnomecanvasmm2.6"
+VERSION=2.26.0
+RELEASE=1
+CATEGORY="Libs"
+SUMMARY="C++ bindings for libgnomecanvas2"
+DESCRIPTION="Official GTKMM C++ bindings for libgnomecanvas 2.6 and up"
+
+PKG_NAMES="${NAME}_1 ${NAME}-devel"
+libgnomecanvasmm2_6_1_CONTENTS='usr/bin/*-2.6-1.dll usr/share/doc/'
+libgnomecanvasmm2_6_devel_CONTENTS='usr/include/ usr/lib/'

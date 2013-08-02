@@ -1,5 +1,0 @@
-category: Gnome
-requires: libatk1.6_1 libgcc1 libgdk_pixbuf2.0_0 libglib2.0_0 libglibmm2.4_1 libgtkmm2.4_1 libart_lgpl_2_2 libgnomecanvas2_0 libpangomm1.4_1 libsigc2.0_0 libstdc++6
-external-source: libgnomecanvasmm2.6
-sdesc: "C++ bindings for libgnomecanvas-2 (runtime)"
-ldesc: "Official C++ bindings for libgnomecanvas-2.6"
